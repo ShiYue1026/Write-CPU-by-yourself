@@ -1,5 +1,5 @@
 # Write-CPU-by-yourself<br>
-**Introduction of this project:**
+**Introduction of this project:** <br>
 &ensp;&ensp;&ensp;&ensp;A pipelined CPU based on the MIPS architecture has been implemented with 52 basic instructions, 5 privileged instructions, and an exception handling mechanism. Additionally, a fast divider, AXI interface, and instruction cache have been added to enhance the performance of the CPU.
   
 &ensp;&ensp;&ensp;&ensp;The project implementation process involves several steps. Firstly, the addition of 52 instructions is accomplished, including logical operation instructions, shift instructions, data movement instructions with HILO registers, arithmetic instructions, branch instructions, and memory access instructions. After completing this step, the total number of instructions is increased to 57, with the addition of CP0 registers, delay slots, and precise exceptions handling. The CP0 registers include BadVAddr, Count, Status, Cause, and EPC registers. Using the tools mentioned above, exception and interrupt handling are implemented. Then, the conversion from SRAM port to pseudo-SRAM port is achieved. Lastly, the implementation of AXI interface and instruction cache is completed.
