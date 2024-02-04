@@ -5,4 +5,4 @@ A pipelined CPU based on the MIPS architecture has been implemented with 52 basi
 ![image](https://github.com/ShiYue-HelloWorld/Write-CPU-by-yourself/blob/master/Architecture.png?raw=true)
 
 **Instructions of the CPU:**
-
+![image](https://github.com/ShiYue-HelloWorld/Write-CPU-by-yourself/blob/master/Instruction.png?raw=true)
